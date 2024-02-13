@@ -1,6 +1,6 @@
-git.txt
+
 # Ignore all
-*
+*.txt
 
 # Unignore all with extensions
 !*.*
