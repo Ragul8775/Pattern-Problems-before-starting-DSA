@@ -2,9 +2,15 @@
 using namespace std;
 void n_pattern(int n)
 {
-    for (int i = 0; i < 2 * n - 1; i++)
+    for (int i = 0; i <= 2 * n - 1; i++)
     {
-        cout << "*";
+        int star = i;
+        if (i > n)
+            star = 2 * n - i;
+        for (int j = 1; j <= star; j++)
+        {
+            cout << "*";
+        }
         cout << endl;
     }
 }
